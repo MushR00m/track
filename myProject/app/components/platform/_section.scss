@@ -6,11 +6,22 @@
 		font-weight: bold;
 	}
 }
+%grid{
+	width: 133px;
+	height: 30px;
+	text-align: center;
+}
 .data-table{
-	th,td{
-		width: 133px;
-		height: 30px;
-		border:1px solid #000;
-		text-align: center;
+	border-radius: 10px;
+	thead{
+		background-color:$thead-bgcolor;
+	}
+	td{
+		@extend %grid;
+		border-bottom:1px solid $border-color;
+		color: $font-color;
+	}
+	th{
+		@extend %grid;
 	}
 }
