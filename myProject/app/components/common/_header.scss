@@ -1,0 +1,38 @@
+@import './var';
+.header-wrap{
+	width: 100%;
+	background-color: #FBFBFB;
+	border-bottom: 1px solid $grey;
+}
+.header{
+	width:$container-width;
+	height:$header-height;
+	margin:auto;
+}
+.logo{
+	float:left;
+	img{
+		margin: 10px auto;
+	}
+}
+%list{
+	li{
+		float:left;
+		margin-left:20px;
+		line-height: $header-height;
+		a {
+			color: $font-grey;
+
+			&:hover{
+				color: $blue;
+			};
+		}
+	}
+}
+.nav{
+	@extend %list;
+}
+.aside-nav{
+	float: right;
+	@extend %list;
+}

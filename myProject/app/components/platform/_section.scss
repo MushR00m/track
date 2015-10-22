@@ -1,0 +1,16 @@
+.section{
+	width: $container-width;
+	margin: 20px auto;
+	h2{
+		margin: 20px 0;
+		font-weight: bold;
+	}
+}
+.data-table{
+	th,td{
+		width: 133px;
+		height: 30px;
+		border:1px solid #000;
+		text-align: center;
+	}
+}

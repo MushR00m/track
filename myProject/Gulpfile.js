@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 gulp.task('scripts', function () {
 
-    gulp.src(['app/client/index.js'])
+    gulp.src(['app/client/index.js','app/client/platform.js'])
         .pipe(browserify({
             debug: true,
             transform: [ 'reactify' ]

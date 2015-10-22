@@ -4,7 +4,7 @@ var Index=React.createClass({
           render : function (){
                 return (
                   <div>
-                      index page!
+                      index page???
                   </div>
                 )
           }

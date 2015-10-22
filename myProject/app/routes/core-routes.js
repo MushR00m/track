@@ -1,15 +1,15 @@
 var React = require('react/addons'),
 Index = React.createFactory(require('../components/Index'));
-
+Platform=React.createFactory(require('../components/Platform'));
 module.exports = function(app) {
-    /*  app.get('/contact', function(req, res){
+      app.get('/platform', function(req, res){
         // React.renderToString takes your component
           // and generates the markup
-        var reactHtml = React.renderToString(Contact({}));
+        var reactHtml = React.renderToString(Platform({}));
           // Output html rendered by react
         // console.log(myAppHtml);
-          res.render('contact.ejs', {reactOutput: reactHtml});
-      });*/
+          res.render('platform.ejs', {reactOutput: reactHtml});
+      });
 
 	app.get('/', function(req, res){
 		// React.renderToString takes your component

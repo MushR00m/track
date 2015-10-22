@@ -1,0 +1,11 @@
+@import './common/var';
+body{
+	font-size: 14px;
+	cursor: default;
+	color: $font-grey;
+}
+a{
+	cursor: pointer;
+}
+@import "./common/header";
+@import "./platform/section"
