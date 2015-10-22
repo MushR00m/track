@@ -1,8 +1,0 @@
-body{
-	font-size:14px;
-	cursor: default;
-	background-color: #F7F7F9;
-}
-@import "./common/variable";
-@import "./common/nav";
-@import "./index/section";
