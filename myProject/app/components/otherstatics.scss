@@ -8,3 +8,22 @@ a{
 	cursor: pointer;
 }
 @import "./common/header";
+.section{
+	width: $container-width;
+	margin: 20px auto;
+	h2{
+		margin: 20px 0;
+		font-weight: bold;
+	}
+}
+@import "./common/table";
+table{
+	@include data-table(206px,30px);
+}
+.mb80{
+	margin-bottom: 80px;
+}
+.table-wrap{
+	float:left;
+	margin: 20px 80px 60px 0;
+}

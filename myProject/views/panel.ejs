@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>React Isomorphic Server Side Rendering Example</title>
+    <link rel="stylesheet" type="text/css" href="/panel.css">
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+  </head>
+  <body>
+	<!-- <h1 id="main-title">Isomorphic Server Side Rendering with React</h1> -->
+
+    <div id="react-main-mount">
+      <%- reactOutput %>
+    </div>
+
+	<!-- comment out main.js to see server side only rendering -->
+	<script src="/panel.js"></script>
+
+  </body>
+</html>

@@ -17,3 +17,6 @@ a{
 	}
 }
 @import "./common/table";
+table{
+	@include data-table(133px,30px);//table 里面定制了一个混合器，传入参数控制单元格的宽和高度
+}

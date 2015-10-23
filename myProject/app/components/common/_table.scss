@@ -1,19 +1,16 @@
-%grid{
-	width: 133px;
-	height: 30px;
-	text-align: center;
-}
-.data-table{
+@mixin data-table($width:133px,$height:30px){
 	border-radius: 10px;
+	border:1px solid $thead-bgcolor;
 	thead{
 		background-color:$thead-bgcolor;
 	}
-	td{
-		@extend %grid;
-		border-bottom:1px solid $border-color;
-		color: $font-color;
+	td,th{
+		width:$width;
+		height:$height;
+		text-align: center;
 	}
-	th{
-		@extend %grid;
+	td{
+		border-bottom:1px solid $thead-bgcolor;
+		color: $font-color;
 	}
 }
