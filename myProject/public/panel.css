@@ -32,3 +32,27 @@ a {
 
 .aside-nav {
   float: right; }
+
+.section {
+  width: 1100px;
+  margin: 20px auto; }
+  .section h2 {
+    margin: 20px 0;
+    font-weight: bold; }
+
+.inputs {
+  width: 500px;
+  margin: 200px auto 100px; }
+  .inputs a {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FBFBFB;
+    border: 1px solid #E9E9E9;
+    border-radius: 10px;
+    color: #737373; }
+    .inputs a:hover {
+      color: #ffffff;
+      background-color: #2DB7F5; }

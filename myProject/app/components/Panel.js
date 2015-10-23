@@ -6,6 +6,13 @@ var Panel=React.createClass({
 		return (
 			<div>
 				<Header />
+				<div className="section">
+					<div className="map">首页／</div>
+					<div className="inputs">
+						<a>橙信统计</a>
+						<a>蜂控统计</a>
+					</div>
+				</div>
 			</div>
 		)
 	}

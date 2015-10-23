@@ -8,3 +8,30 @@ a{
 	cursor: pointer;
 }
 @import "./common/header";
+.section{
+	width: $container-width;
+	margin: 20px auto;
+	h2{
+		margin: 20px 0;
+		font-weight: bold;
+	}
+}
+.inputs{
+	width:500px;
+	margin:200px auto 100px;
+	a{
+		display: inline-block;
+		width: 200px;
+		margin-right: 20px;
+		text-align: center;
+		padding: 50px 0;
+		background-color: #FBFBFB;
+		border: 1px solid $grey;
+		border-radius: 10px;
+		color:$font-grey;
+		&:hover{
+			color: #ffffff;
+			background-color:$blue;
+		}
+	}
+}
