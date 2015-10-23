@@ -8,4 +8,12 @@ a{
 	cursor: pointer;
 }
 @import "./common/header";
-@import "./platform/section"
+.section{
+	width: $container-width;
+	margin: 20px auto;
+	h2{
+		margin: 20px 0;
+		font-weight: bold;
+	}
+}
+@import "./common/table";

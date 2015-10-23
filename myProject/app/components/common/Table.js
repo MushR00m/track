@@ -15,9 +15,9 @@
     			dataRows.push(<tr>{items}</tr>);
     		});
     		return(
-    			<table>
+    			<table className="data-table">
     				<thead>
-    					<td></td>
+    					<tr>{categoryArray}</tr>
     				</thead>
     				<tbody>
     					{dataRows}
